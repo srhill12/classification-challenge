@@ -1,7 +1,16 @@
-# Scenario
+Overview
+This project demonstrates how to build a spam detection system using two machine learning models: Logistic Regression and Random Forest Classifier. The dataset used is sourced from the UCI Machine Learning Library, and it contains various features extracted from email texts.
 
-An Internet Service Provider (ISP) has tasked me with improving the email filtering system for its customers. I've been provided with a dataset that contains information about emails, with two possible classifications: spam and not spam. The ISP wants you to take this dataset and develop a supervised machine learning (ML) model that will accurately detect spam emails so it can filter them out of its customers' inboxes.
+Requirements
+Python 3.x
+pandas library
+scikit-learn library
+matplotlib library (for any potential visualizations)
 
-I will be creating two classification models to fit the provided data, and evaluate which model is more accurate at detecting spam. The models you'll create will be a logistic regression model and a random forest model.
+Conclusion
+This project demonstrates a basic yet effective approach to spam detection using machine learning. The Random Forest Classifier outperformed the Logistic Regression model in this case, likely due to its ability to handle non-linear relationships in the data.
 
+References
+Dataset: UCI Machine Learning Library
+For any further questions or improvements, please refer to the project documentation or the scikit-learn library documentation.
 
